@@ -1,0 +1,6 @@
+> db.phones.insertOne({
+... "departureAirport": "MUC",
+... "arrivalAirport":"SFO",
+... "distance" : 12000,
+... }
+... )
