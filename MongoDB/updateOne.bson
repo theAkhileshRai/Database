@@ -1,0 +1,5 @@
+> db.flights.updateOne({distance :12000},{$set: {marker:"delete"}})
+{ "acknowledged" : true, "matchedCount" : 0, "modifiedCount" : 0 }
+> db.flights.find().pretty()
+> db.flights.updateMany({},{$set:{marker:"toDelete"}})
+{ "acknowledged" : true, "matchedCount" : 0, "modifiedCount" : 0 }
